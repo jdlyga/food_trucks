@@ -71,5 +71,5 @@ for location_name, address, url in urls:
         cal.events.add(event)
 
 # Save the calendar to an ICS file
-with open("food_truck_schedule.ics", "w") as my_file:
+with open("schedule.ics", "w") as my_file:
     my_file.writelines(cal)
